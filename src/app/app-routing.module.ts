@@ -8,7 +8,7 @@ import { AddressComponent } from './address/address.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-    {path:'',redirectTo:'/departments',pathMatch:'full'} // default redirecting url
+    {path:'',redirectTo:'/departments',pathMatch:'full'}, // default redirecting url
     {path:'departments',component: DeparmentsComponent},
     {path:'employees',component: EmployeesComponent},
     //{path:'projects',component: ProjectsComponent},
